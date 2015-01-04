@@ -1,0 +1,55 @@
+!! xrdb resources, requires: droid-ttf, rxvt-unicode, xorg-xrdb
+
+! Xft
+Xft.dpi:       96
+Xft.antialias: true
+Xft.rgba:      rgb
+Xft.hinting:   true
+Xft.hintstyle: hintslight
+
+! Dark color theme
+*foreground:  #dedede
+*background:  #000000
+*cursorColor: #9f9f9f
+*color0:      #000000
+*color8:      #000000
+*color1:      #d54e53
+*color9:      #d54e53
+*color2:      #b9ca4a
+*color10:     #b9ca4a
+*color3:      #e7c547
+*color11:     #e7c547
+*color4:      #7aa6da
+*color12:     #7aa6da
+*color5:      #c397d8
+*color13:     #c397d8
+*color6:      #70c0b1
+*color14:     #70c0b1
+*color7:      #dedede
+*color15:     #dedede
+
+!! URxvt
+URxvt.depth:           32
+URxvt.geometry:        80x30
+URxvt.transparent:     false
+URxvt.fading:          0
+URxvt.loginShell:      true
+URxvt.saveLines:       500
+URxvt.internalBorder:  3
+URxvt.lineSpace:       0
+
+URxvt.allow_bold:      true
+URxvt*font:            xft:Droid Sans Mono:style=Regular:pixelsize=14
+URxvt*boldFont:        xft:Droid Sans Mono:style=Bold:pixelsize=14
+URxvt*letterSpace:     -1
+
+URxvt.scrollStyle:     rxvt
+URxvt.scrollBar:       false
+
+URxvt.cursorBlink:     true
+URxvt.cursorUnderline: false
+
+URxvt.pointerBlank:    true
+
+URxvt.perl-ext:
+URxvt.perl-ext-common:
